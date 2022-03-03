@@ -5,20 +5,12 @@
     color: #ffffff;
 }
 
-.full-page{
-    height: 100vh;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    background-color: #000000e3;
-    
-}
-
 section{
     min-height: 100vh;
-    /*scroll-snap-align:start;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #000000e3;
 }
 
 #presentation{
@@ -34,27 +26,22 @@ section{
     padding: 1rem;
 }
 
-.hero h1{
+.hero-title{
     font-size: 3rem;
     font-weight: 400;
     line-height: 1.5;
 }
 
-.hero h1 b{
+.hero-title b{
     font-weight: 500;
     color: #FA3600;
 }
 
-.hero a{
-    font-size: 1.2rem;
+.hero-link{
+    font-size: 1.1rem;
+    padding: .5rem ;
     text-decoration: none;
     color: #ffffff;
-    border: #ffffff solid 1px;  
-}
-
-.hero a:hover{
-    color:#FA3600;
-    border: #FA3600 solid 1px;
 }
 
 .aboutme-title{
@@ -144,6 +131,7 @@ section{
 .project-description p{
     padding-bottom: 2rem;
     font-size: 1.2rem;
+    line-height: 2;
 }
 
 .project-link{
@@ -153,11 +141,16 @@ section{
 
 .project-link a{
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: .5rem;
     color: #ffffff;
     border: #ffffff solid 1px;
     border-radius: 0.25rem;
+}
+
+.project-link a:hover{
+    color:#FA3600;
+    border: #FA3600 solid 1px;
 }
 
 .project-img img{
