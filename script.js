@@ -7,29 +7,26 @@ sr.reveal('.aboutme-title, .skills-title, .projects-title, .contact-title',{});
 
 /*Presentation*/
 sr.reveal('.hero-title',{
-    origin: 'left',
-    distance: '80px'
+    origin:'left',
+    distance:'80px'
 });
 
-sr.reveal('.hero-l',{
-    delay:600
+sr.reveal('.hero-link',{
+    delay:700
 });
 
 /*Aboute Me*/
 sr.reveal('.aboutme-left',{
-    origin:'bottom',
-    distance:'100px',
+    origin:'left',
+    distance:'50px',
     delay:200
 });
 
 sr.reveal('.aboutme-right',{
-    origin:'left',
-    distance:'50px',
-    delay: 500
+    delay:700
 });
 
 /*Skills*/
-
 sr.reveal('.skills-description',{
     delay:500
 });
@@ -58,5 +55,5 @@ sr.reveal('form',{
 });
 
 sr.reveal('.contact-items',{
-    delay:900
+    delay:750
 });
