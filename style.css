@@ -6,15 +6,14 @@
 }
 
 section{
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12rem 0rem;
     background-color: #000000e3;
 }
 
 #presentation{
-    min-height: 100vh    ;
     background-image: url(./assets/wallpaper.jpg);
     background-size: cover;
 }
