@@ -61,7 +61,7 @@ section{
   right: 0;
   z-index: -1;
   background-color: #FA3600;
-  transition: transform 200ms  ease-in-out;
+  transition: transform 300ms  ease-in-out;
   transform: scaleX(0);
   transform-origin: left;
 }
