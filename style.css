@@ -39,35 +39,17 @@ section{
 }
 
 .hero-link{
-    position: relative;
     font-size: 1.1rem;
     font-weight: 500;
     padding: .5rem ;
     text-decoration: none;
     color: #ffffff;
-    z-index: 1;
+    background-color: #FA3600;
+    border-radius: 0.25rem;  
 }
 
 .hero-link:hover{
     color: #ffffff;
-}
-
-.hero-link::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  background-color: #FA3600;
-  transition: transform 300ms  ease-in-out;
-  transform: scaleX(0);
-  transform-origin: left;
-}
-
-.hero-link:hover::before, .hero-link:focus::before{
-    transform: scaleX(1);
 }
 
 /*About Me*/
