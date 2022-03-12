@@ -27,7 +27,7 @@ section{
 }
 
 .hero-title{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 400;
     line-height: 1.5;
     padding-bottom: 1.2rem;
@@ -39,7 +39,7 @@ section{
 }
 
 .hero-link{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
     padding: .5rem ;
     text-decoration: none;
@@ -49,7 +49,7 @@ section{
 }
 
 .hero-link:hover{
-    color: #ffffff;
+    color: #ffffff
 }
 
 /*About Me*/
