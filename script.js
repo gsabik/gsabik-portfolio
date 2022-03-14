@@ -11,8 +11,13 @@ sr.reveal('.hero-title',{
     distance:'80px'
 });
 
+sr.reveal('.hero-subtitle',{
+    origin:'left',
+    distance:'80px'
+});
+
 sr.reveal('.hero-link',{
-    delay:700
+    delay:900
 });
 
 /*Aboute Me*/
