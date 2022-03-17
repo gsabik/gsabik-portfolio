@@ -6,7 +6,6 @@
 }
 
 section{
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +15,7 @@ section{
 #presentation{
     background-image: url(./assets/wallpaper.jpg);
     background-size: cover;
+    height: 100vh;
 }
 
 .hero{
@@ -57,6 +57,10 @@ section{
 
 /*About Me*/
 
+#aboutme{
+    padding-top: 5rem;
+}
+
 .aboutme-title{
     display: flex;
     justify-content: center;
@@ -77,10 +81,6 @@ section{
 
 .aboutme-left img{
     width: 65%;
-}
-
-.aboutme-left h3{
-    padding: 1rem;
 }
 
 .aboutme-left ul{
@@ -119,6 +119,10 @@ section{
 
 /*Skills*/
 
+#skills{
+    padding-top: 5rem;
+}
+
 .skills-title{
     display: flex;
     justify-content: center;
@@ -138,14 +142,18 @@ section{
 
 /*Proyectos*/
 
+#projects{
+    padding-top: 5rem;
+}
+
 .projects-title{
     display: flex;
     justify-content: center;
-    padding-top: 1.5rem;
+    padding-bottom: 4rem;
 }
 
 .projects-row{
-    padding-top: 10rem;
+    padding-bottom: 5rem;
 }
 
 .projects-title h2{
