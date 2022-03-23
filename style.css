@@ -71,7 +71,7 @@ b{
 }
 
 .aboutme-left img{
-    width: 80%;
+    width: 70%;
 }
 
 .aboutme-left ul{
@@ -179,6 +179,17 @@ b{
 
 .contact-title h2{
     border-bottom: #FA3600 solid;
+}
+
+.contact-mail{
+    border: 1px solid #fa3600;
+    padding: .8rem;
+    text-decoration: none;
+    color: #FA3600;
+}
+
+.contact-mail:hover{
+    color: #fa3600;
 }
 
 .contact-items{
