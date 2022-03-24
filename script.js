@@ -37,7 +37,7 @@ sr.reveal('.skills-description',{
 });
 
 sr.reveal('.skills-list',{
-    delay:700
+    delay:800
 });
 
 /*Projects*/
