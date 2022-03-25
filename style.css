@@ -32,23 +32,29 @@ b{
 }
 
 .hero-link{
-    font-size: 1rem;
-    font-weight: 500;
-    padding: .5rem 2rem ;
+    margin: 1rem;
+    padding: .5rem 2rem;
     text-decoration: none;
     color: #ffffff;
-    background-color: #FA3600;
-    border-radius: 0.25rem;  
+    border-radius: .3rem ;
 }
 
 .hero-link:hover{
-    color: #ffffff
+    color: #ffffff;
+}
+
+.hero-link-about{
+    border: 1px solid #ffffff;
+}
+
+.hero-link-project{
+    background-color: #fa3600;
 }
 
 /*About Me*/
 
 #aboutme{
-    padding-top: 5rem;
+    padding-top: 6rem;
 }
 
 .aboutme-title{
@@ -73,24 +79,22 @@ b{
     width: 70%;
 }
 
-.aboutme-left ul{
-    list-style: none;
-    font-size: 1.2rem;
-    line-height: 2;
-    padding-left: 0;
-}
-.aboutme-left ul li i{
-    padding-right: .5rem;
+.aboutme-ubication{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
-.aboutme-left ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 500;
+.aboutme-ubication p{
+    font-size: 1.1rem;
 }
 
 .aboutme-right{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: .5rem;
 }
@@ -98,7 +102,7 @@ b{
 /*Skills*/
 
 #skills{
-    padding-top: 5rem;
+    padding-top: 6rem;
 }
 
 .skills-title{
@@ -114,7 +118,7 @@ b{
 /*Proyectos*/
 
 #projects{
-    padding-top: 5rem;
+    padding-top: 6rem;
 }
 
 .projects-title{
@@ -139,7 +143,7 @@ b{
     text-align: justify;
     font-size: 1.2rem;
     line-height: 160%;
-    padding-bottom:  2rem;
+    padding-bottom: 2rem;
 }
 
 .project-link{
@@ -150,26 +154,24 @@ b{
 
 .project-link a{
     text-decoration: none;
+    padding: .5rem 2rem;
+}
+
+.project-link a:hover{
+    color: #ffffff;
 }
 
 .link-github{
     color: #ffffff;
     border: solid 1px #ffffff;
-    border-radius: .25rem;
-    padding: .5rem 1rem;
-
+    border-radius: .3rem;
 }
 
 .link-demo{
     width: 10rem;
     color: #ffffff;
     background-color: #fa3600;
-    padding: .5rem 1rem;
     border-radius: .25rem;    
-}
-
-.link-demo:hover{
-    color: #ffffff;
 }
 
 .project-img img{
@@ -180,7 +182,7 @@ b{
 /*Contacto*/
 
 #contact{
-    padding: 5rem 0;
+    padding: 6rem;
 }
 
 .contact-title{
@@ -194,8 +196,6 @@ b{
 }
 
 .contact-mail{
-    border: 1px solid #fa3600;
-    padding: .8rem;
     text-decoration: none;
     color: #FA3600;
 }
@@ -220,6 +220,7 @@ b{
 
 .contact-links:hover{
     color: #ffffff;
+    font-size: 1.2rem;
 }
 
 .contact-icons{
