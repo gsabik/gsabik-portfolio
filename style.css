@@ -195,15 +195,6 @@ b{
     border-bottom: #FA3600 solid;
 }
 
-.contact-mail{
-    text-decoration: none;
-    color: #FA3600;
-}
-
-.contact-mail:hover{
-    color: #fa3600;
-}
-
 .contact-items{
     display: flex;
     justify-content: center;
@@ -220,7 +211,6 @@ b{
 
 .contact-links:hover{
     color: #ffffff;
-    font-size: 1.2rem;
 }
 
 .contact-icons{
