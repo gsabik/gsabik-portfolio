@@ -36,7 +36,6 @@ b{
     padding: .5rem 2rem;
     text-decoration: none;
     color: #ffffff;
-    border-radius: .3rem ;
 }
 
 .hero-link:hover{
@@ -164,14 +163,12 @@ b{
 .link-github{
     color: #ffffff;
     border: solid 1px #ffffff;
-    border-radius: .3rem;
 }
 
 .link-demo{
     width: 10rem;
     color: #ffffff;
     background-color: #fa3600;
-    border-radius: .25rem;    
 }
 
 .project-img img{
