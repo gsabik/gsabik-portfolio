@@ -173,7 +173,13 @@ b{
 
 .project-img img{
     width: 100%;
+    filter: grayscale(100%);
 }
+
+.project-img img:hover{
+    filter: none;
+}
+
 
 
 /*Contacto*/
