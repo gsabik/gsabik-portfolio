@@ -6,9 +6,6 @@
 }
 
 section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #000000e3;
 }
 
@@ -16,6 +13,25 @@ section{
     background-image: url(./assets/wallpaper.jpg);
     background-size: cover;
     height: 100vh;
+}
+
+.hero-nav{
+    height: 10%;
+}
+
+.nav-contact{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    
+}
+
+.hero-main{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-title{
