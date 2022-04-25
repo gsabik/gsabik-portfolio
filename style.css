@@ -6,7 +6,10 @@
 }
 
 section{
+    display: flex;
     background-color: #000000e3;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero{
@@ -156,23 +159,20 @@ b{
 
 .project-description p{
     text-align: justify;
-    font-size: 1.2rem;
-    line-height: 160%;
-    padding-bottom: 2rem;
 }
 
-.project-link{
+.project-links{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 2.5rem;
 }
 
-.project-link a{
+.project-links a{
     text-decoration: none;
     padding: .5rem 2rem;
 }
 
-.project-link a:hover{
+.project-links a:hover{
     color: #ffffff;
 }
 
@@ -195,8 +195,6 @@ b{
 .project-img img:hover{
     filter: none;
 }
-
-
 
 /*Contacto*/
 
@@ -236,4 +234,3 @@ b{
     padding: 1rem;
     font-size: 2rem;
 }
-
